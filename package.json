@@ -1,0 +1,24 @@
+{
+  "name": "my-vue3-app",
+  "version": "1.0.0",
+  "description": "A Vue 3 project with JavaScript and CSS bundling example.",
+  "main": "src/main.js",
+  "scripts": {
+    "dev": "vite",
+    "serve": "vite preview",
+    "build": "vite build",      
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "vue": "^3.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.0",
+    "gh-pages": "^6.3.0",
+    "vite": "^7.0.6"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
